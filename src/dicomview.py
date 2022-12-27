@@ -7,7 +7,7 @@ import vtk as vtkmodule
 # VTK pipeline
 # -----------------------------------------------------------------------------
 
-path = "C:\\Users\\DELL E5540\\Desktop\\ImageProcessing\\image\\matlab\\examples\\sample_data\\DICOM\\digest_article"
+path = "./data"
 colors = vtkmodule.vtkNamedColors()
 reader = vtkmodule.vtkDICOMImageReader()
 volumeMapper = vtkmodule.vtkSmartVolumeMapper()
